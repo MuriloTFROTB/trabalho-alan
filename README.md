@@ -32,4 +32,4 @@ O projeto contém as seguintes páginas:
 
 
 ## Acesso ao Projeto
-Para acessar a página web desse projeto [clique aqui](https://murilotfrotb.github.io/trabalho-alan/lib/emanuel/index.html)
+Para acessar a página web desse projeto [clique aqui](https://murilotfrotb.github.io/trabalho-alan/lib/landing-page/index.html)
