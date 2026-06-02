@@ -366,15 +366,13 @@ color: #A3AED0;
 
 }
 
-.card_club .club_img {
+.card_club .club_img img {
 
 width: 40px;
 
 height: 40px;
 
-background-color: #E2E8F0; /* Fundo temporário para o logo */
-
-border-radius: 50%;
+object-fit: contain;
 
 margin-right: 12px;
 
@@ -407,5 +405,7 @@ font-weight: 500;
 }
 
 .widget-card__tabela_content{
+    max-height: 500px;
+    overflow-y: auto;
 
 }
