@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login Futebol</title>
+
+    <style>
+
+        /* Configurações gerais da página */
+        body{
+            font-family: Arial, sans-serif;
+            background-image: url("https://images.unsplash.com/photo-1574629810360-7efbbe195018");
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Caixa principal do login */
+        .login{
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 350px;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Bola de futebol */
+        .bola{
+            font-size: 60px;
+        }
+
+        /* Título */
+        h1{
+            color: #00ff66;
+        }
+
+        /* Campos de entrada */
+        input{
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+
+            border: none;
+            border-radius: 8px;
+        }
+
+        /* Botão */
+        button{
+            width: 100%;
+            padding: 12px;
+
+            background-color: #00aa44;
+            color: white;
+
+            border: none;
+            border-radius: 8px;
+
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover{
+            background-color: #00cc55;
+        }
+
+        /* Texto inferior */
+        p{
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Login</h1>
+
+    <div class="login">
+
+        <div class="bola">⚽</div>
+
+        <h1>Login Futebol</h1>
+
+        <p>Entre para acessar a área dos jogadores e torcedores.</p>
+
+        <form>
+
+            <input type="text" placeholder="Digite seu usuário">
+
+            <input type="password" placeholder="Digite sua senha">
+
+            <button>
+                <a href="../landing-page/index.html">Entrar</a>
+            </button>
+
+        </form>
+
+    </div>
+
 </body>
 </html>
